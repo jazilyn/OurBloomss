@@ -15,16 +15,19 @@
     text-align: start;
 }
 
+
 .galleryContainer img{
     width:400px;
     max-width:92vw;
 }
+
+
 .image{
     grid-area:pic1;
 }
 .image2{
     grid-area:pic2;
-}   
+}  
 .image3{
     grid-area:pic3;
 }
@@ -43,7 +46,7 @@
 .image8{
     grid-area:pic8;
 }
-.image9{
+.image1{
     grid-area:pic9;
 }
 @media screen and (min-width:800px)and (max-width:1199px){
@@ -56,20 +59,22 @@
     }
 }
 
+
 @media screen and (max-width:799px){
     .galleryContainer{
-        display: grid;
-        grid-template-areas: 'pic1' 
+        grid-template-areas: 'pic1'
                              'pic2'
-                             'pic3' 
+                             'pic3'
                              'pic4'
                              'pic5'
                              'pic6'
-                             'pic7' 
+                             'pic7'
                              'pic8'
                              'pic9';
-        place-items: start;
-        grid-template-columns: 1fr; /* Ensure only one column */
+        place-items: center;
+        grid-template-columns: 1fr;
     }
 }
+
+
 
