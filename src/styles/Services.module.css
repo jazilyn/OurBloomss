@@ -1,13 +1,13 @@
 .servicesContent{ 
     display:grid; 
     grid-template-areas: 
-        "sechead sechead servmod1 servmod1 servmod1 servmod1 servmod1 servmod1 servmod1 servmod1 servmod1"
-        "sechead sechead servmod2 servmod2 servmod2 servmod2 servmod2 servmod2 servmod2 servmod2 servmod2"
-        "sechead sechead servmod3 servmod3 servmod3 servmod3 servmod3 servmod3 servmod3 servmod3 servmod3";
+        'sechead sechead servmod1 servmod1 servmod1 servmod1 servmod1 servmod1 servmod1 servmod1 servmod1'
+        'sechead sechead servmod2 servmod2 servmod2 servmod2 servmod2 servmod2 servmod2 servmod2 servmod2'
+        'sechead sechead servmod3 servmod3 servmod3 servmod3 servmod3 servmod3 servmod3 servmod3 servmod3';
 }
 
 .section_header{ 
-    display:grid;
+    text-align:center;
     grid-area:sechead;
 }
 
@@ -28,7 +28,7 @@
     text-align:start;
     padding:30px 0px; 
     justify-content:space-between;
-    grid-area:servmod1;
+   
 }
 .serviceModule2{ 
     display:flex; 
