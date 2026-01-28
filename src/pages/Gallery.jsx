@@ -1,13 +1,13 @@
 import styles from "../styles/Gallery.module.css"
-import g1 from "../assets/gallery/Image.png"
-import g2 from "../assets/gallery/Image-0.png"
-import g3 from "../assets/gallery/Image-1.png"
-import g4 from "../assets/gallery/Image-2.png"
-import g5 from "../assets/gallery/Image-3.png"
-import g6 from "../assets/gallery/Image-4.png"
-import g7 from "../assets/gallery/Image-5.png"
-import g8 from "../assets/gallery/Image-6.png"
-import g9 from "../assets/gallery/Image-7.png"
+import g1 from "../assets/Gallery/Image.png"
+import g2 from "../assets/Gallery/Image-0.png"
+import g3 from "../assets/Gallery/Image-1.png"
+import g4 from "../assets/Gallery/Image-2.png"
+import g5 from "../assets/Gallery/Image-3.png"
+import g6 from "../assets/Gallery/Image-4.png"
+import g7 from "../assets/Gallery/Image-5.png"
+import g8 from "../assets/Gallery/Image-6.png"
+import g9 from "../assets/Gallery/Image-7.png"
 
 
 import Footer from '../components/Footer.jsx'
